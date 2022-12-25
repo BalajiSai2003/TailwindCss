@@ -8,11 +8,14 @@
     <title>Responsiveness using tailwind</title>
 </head>
 <body>
-    <nav class=" flex-col sm:flex-row md:flex-row">
-        <li class="w-auto h-auto  bg-blue-400">Home</li>
-        <li class="w-auto h-auto  bg-blue-400">About</li>
-        <li class="w-auto h-auto  bg-blue-400">Contact Us</li>
-        <li class="w-auto h-auto  bg-blue-400">Profile</li>
+    <nav class="bg-black p-1 flex flex-col sm:flex-row rounded-xl justify-between">
+        <img src="images/1.png" class="h-10 w-10 pt-1" alt="">
+        <ul class="flex flex-col sm:flex-row justify-end">
+            <li class="w-16 h-8 text-center border-white-1 mt-4 sm:ml-4 text-white cursor-pointer">Home</li>
+            <li class="w-16 h-8 text-center border-white-1 mt-4 sm:ml-4 text-white cursor-pointer">About</li>
+            <li class="w-16 h-8 text-center border-white-1 mt-4 sm:ml-4 text-white cursor-pointer">Contact</li>
+            <li class="w-16 h-8 text-center border-white-1 mt-4 sm:ml-4 text-white cursor-pointer">Profile</li>
+        </ul>
     </nav>
     <h1 class="text-3xl  sm:font-thin ">
         Hello World
